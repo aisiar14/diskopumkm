@@ -60,7 +60,7 @@
 										WOKU
 									</a>
 									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li><a class="dropdown-item" href="<?= base_url(); ?>post/list/berita">Beritass</a></li>
+										<li><a class="dropdown-item" href="<?= base_url(); ?>post/list/berita">Berita</a></li>
 										<li><a class="dropdown-item" href="<?= base_url(); ?>post/list/kegiatan">Kegiatan</a></li>
 										<li><a class="dropdown-item" href="<?= base_url(); ?>post/list/informasi">Informasi</a></li>
 										<div class="dropdown-divider"></div>
