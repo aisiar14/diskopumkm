@@ -24,7 +24,7 @@
 							<div class="container">
 								<div class="slider-text">
 									<h1 class="wow cssanimation leFadeInRight sequence"><?= $sd->title; ?></h1>
-									<p class="wow cssanimation fadeInTop" data-wow-delay="1s"><?= $sd->subtitle; ?></p>
+									<p class="wow cssanimation fadeInTop " data-wow-delay="1s"><?= $sd->subtitle; ?></p>
 									<?php if ($sd->link != null || $sd->link != "") : ?>
 										<a href="<?= $sd->link; ?>" class="default-btn wow cssanimation fadeInBottom" data-wow-delay="0.8s"><?= $sd->link_title; ?></a>
 									<?php endif; ?>
