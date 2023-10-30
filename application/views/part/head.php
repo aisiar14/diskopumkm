@@ -10,7 +10,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="DynamicLayers">
 
-	<title><?= (isset($title['display'])) ? $title['display'] . " &mdash; " : ""; ?>Website Resmi Dinas Sosial dan Pemberdayaan Masyarakat Kota Manado</title>
+	<title><?= (isset($title['display'])) ? $title['display'] . " &mdash; " : ""; ?>Website Resmi Dinas Koperasi dan UKM Kota Manado</title>
 
 	<link rel="shortcut icon" type="image/x-icon" href="<?= base_url(); ?>assets/img/logo/favicon.png">
 

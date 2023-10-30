@@ -45,15 +45,15 @@
 
 				<div class="col-md-4 xs-padding">
 					<div class="about-content">
-						<img src="<?= base_url(); ?>assets/img/logo/logo.png" alt="logo dinsos image">
+						<!-- <img src="<?= base_url(); ?>assets/img/logo/favicon.png" alt="logo pemkot"> -->
 
-						<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex magnam quos facere delectus adipisci. Nesciunt dolorum dolor in blanditiis exercitationem architecto laborum dolorem quidem praesentium reprehenderit eius quia repellendus dicta, aut libero obcaecati voluptate iste minus omnis at doloremque doloribus.</p>
+						<p class="text-justify">Dinas Koperasi dan UKM Kota Manado merupakan salah satu SKPD yang berada di bawah naungan Pemerintah Kota Manado yang khusus membidangi urusan Pemerintahan di Bidang Koperasi, Usaha Kecil, dan Menengah.</p>
 						<a href="<?= base_url(); ?>page/detail/profil-dinas" class="default-btn">Selengkapnya</a>
 					</div>
 				</div>
 				<div class="col-md-8 xs-padding">
 					<div class="about-image">
-						<img src="<?= base_url(); ?>assets/img/foto-dinsos.png" alt="foto dinsos">
+						<img src="<?= base_url(); ?>assets/img/foto-diskop.png" alt="foto diskop">
 					</div>
 				</div>
 			</div>

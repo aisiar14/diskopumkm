@@ -37,87 +37,64 @@
 
 
 				<div class="col-sm-8 text-right">
-
-
-
-					<!-- test dropdown -->
-
-
-
-					<nav class="navbar navbar-expand-lg navbar-light  " id="main_navbar">
-
-
-						<div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav ml-auto">
-
-								<!-- beranda -->
-								<li class="nav-item  ">
-									<a class="nav-link" href="<?= base_url(); ?>">Beranda <span class="sr-only">(current)</span></a>
+					<ul id="mainmenu" class="nav navbar-nav nav-menu">
+						<li class="<?= ($title['parent'] == "Beranda") ? "active" : ""; ?>">
+							<a href="<?= base_url(); ?>">Beranda</a>
+						</li>
+						<li class="<?= ($title['parent'] == "Tentang Kami") ? "active" : ""; ?>">
+							<a href="#">Tentang Kami</a>
+							<ul>
+								<li>
+									<a href="<?= base_url(); ?>page/detail/profil-dinas">Profil Dinas</a>
 								</li>
-
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										WOKU
-									</a>
-									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li><a class="dropdown-item" href="<?= base_url(); ?>post/list/berita">Berita</a></li>
-										<li><a class="dropdown-item" href="<?= base_url(); ?>post/list/kegiatan">Kegiatan</a></li>
-										<li><a class="dropdown-item" href="<?= base_url(); ?>post/list/informasi">Informasi</a></li>
-										<div class="dropdown-divider"></div>
-
-
-
-										<li class="nav-item dropdown">
-											<a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-												Konsultasi
-											</a>
-											<ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-												<li><a class="dropdown-item" href="https://wa.me/+6282187948658" target="_blank">Bid. Koperasi</a></li>
-												<li><a class="dropdown-item" href="https://wa.me/+6282187948658" target="_blank">Bid. Pembiyaan & Simpan Pinjam</a></li>
-												<li><a class="dropdown-item" href="https://wa.me/+6282187948658" target="_blank">Bid. UMKM</a></li>
-												<div class="dropdown-divider"></div>
-												<li><a class="dropdown-item" href="https://wa.me/+6282187948658" target="_blank">Pengaduan</a></li>
-											</ul>
-
-										</li>
-									</ul>
+								<li>
+									<a href="<?= base_url(); ?>page/detail/visi-misi">Visi Misi</a>
 								</li>
-
-								<!-- Tentang Kami (Single Level) -->
-								<li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Tentang Kami
-									</a>
-									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<li><a class="dropdown-item" href="<?= base_url(); ?>page/detail/profil-dinas">Profil Dinas</a></li>
-										<li><a class="dropdown-item" href="<?= base_url(); ?>page/detail/visi-misi">Visi Misi</a></li>
-										<li><a class="dropdown-item" href="<?= base_url(); ?>page/detail/struktur-organisasi">Struktur Organisasi</a></li>
-									</ul>
+								<li>
+									<a href="<?= base_url(); ?>page/detail/struktur-organisasi">Struktur Organisasi</a>
 								</li>
-
-								<!-- Multilevel -->
-
-
-
-
-
-
 							</ul>
+						</li>
 
+						<!-- <li class="<?= ($title['parent'] == "Layanan") ? "active" : ""; ?>">
+							<a href="<?= base_url(); ?>service">Layanan</a>
+						</li> -->
+						<li class="<?= ($title['parent'] == "Artikel") ? "active" : ""; ?>">
+							<a href="#">Artikel</a>
+							<ul>
+								<li>
+									<a href="<?= base_url(); ?>post/list/berita">Berita</a>
+								</li>
+								<li>
+									<a href="<?= base_url(); ?>post/list/kegiatan">Kegiatan</a>
+								</li>
+								<li>
+									<a href="<?= base_url(); ?>post/list/informasi">Informasi</a>
+								</li>
+							</ul>
+						</li>
+						<li class="<?= ($title['parent'] == "Konsultasi") ? "active" : ""; ?>">
+							<a href="#">WOKU</a>
+							<ul>
+								<li>
+									<a href="https://wa.me/+6289618460700" target="_blank">Bid. Koperasi</a>
+								</li>
+								<li>
+									<a href="https://wa.me/+6289618459966 " target="_blank">Bid. Pembiyaan & Simpan Pinjam</a>
+								</li>
+								<li>
+									<a href="https://wa.me/+6289618460050" target="_blank">Bid. UMKM</a>
 
-						</div>
-					</nav>
+								</li>
+								<li>
+									<a href="https://wa.me/+6289618459900" target="_blank">Pengaduan</a>
 
+								</li>
+							</ul>
+						</li>
 
-
-
-
-
-
-
-					<!-- end dropdown -->
-
-
+						<!-- isi sini -->
+						<!-- new bar-->
 					</ul>
 				</div>
 			</div>
